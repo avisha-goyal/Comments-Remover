@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Comments</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>Remove Comments</h1>
+            <label for="codeType">Choose code type:</label>
+            <select id="codeType">
+                <option value="cpp">C++</option>
+                <option value="python">Python</option>
+            </select>
+
+            <textarea id="codeInput" placeholder="Enter your code here..." rows="15"></textarea>
+
+            <button id="submitBtn">Submit</button>
+        </div>
+
+        <div class="output-section">
+            <h2>Result:</h2>
+            <pre id="output"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
